@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid black; */
+    border: 1px solid black;
 }
 #main{
     height: 1200px !important;
@@ -241,4 +241,40 @@
 }
 #main3-2 .row{
     width: 60%;
+}
+.slider-main{
+    background-color: #2D2D34;
+display: flex;
+width: 100%;
+justify-content: center;
+/* align-items: center; */
+height: 500px;
+border: 1px solid white;
+
+padding-top: -230px;
+}
+#carouselExampleIndicators{
+    width: 100% !important;
+    height: 400px !important;
+}
+#slider-image{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main4{
+    background-color: #2D2D34;
+}
+.main4 h1{
+    color: white;
+    font-family: 'rubik';
+    padding-top: 120px;
+    padding-left: 100px;
+    padding-bottom: 60px;
+    border: 1px solid black;
+    font-size: 290%;
+}
+.main4 h1 span{
+    color: rgba(0, 128, 0, 0.651);
+    
 }
