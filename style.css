@@ -377,7 +377,7 @@ address{
 .site-footer a:hover{
     color: whitesmoke;
     text-decoration: underline green;
-    transition: all ease-in-out 0.5s;
+    /* transition: all ease-in-out 0.5s; */
     padding-left: 14px;
 }
 i{
@@ -400,4 +400,12 @@ i{
 }
 #i4:hover{
     margin-left: 10px;
+}
+#end-footer{
+    color: white;
+    padding-bottom: 80px;
+    background-color: #2D2D34;
+    padding-top: 40px;
+    text-align: center;
+    
 }

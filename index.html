@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Health vest Website</title>
+    <title>Lawyer Website</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
         <!-- the nav bar started -->
@@ -18,32 +20,32 @@
 <div id="main" style="background: url(images/hero_bg.jpg.webp); ">
         <nav class="navbar navbar-expand-lg "  style="background: transparent; ">
           <div class="container-fluid">
-              <a class="navbar-brand mt-4 mb-2 ms-5" href="#" id="logo">Justice.</a>
+              <a class="navbar-brand mt-4 mb-2 ms-5" href="#" id="logo" data-aos="zoom-out-down">Justice.</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse order-lg-1" id="navbarNavDropdown">
                   <ul class="navbar-nav mt-4 mb-2" style="margin-left: auto; margin-right: 140px; font-size: larger; color: white;">
                       <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="#">Home</a>
+                          <a class="nav-link active" aria-current="page" href="index.html" data-aos="zoom-out-down">Home</a>
                       </li>
                       <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-aos="zoom-out-down" data-bs-toggle="dropdown" aria-expanded="false">
                               Practicing Area
                           </a>
                           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                              <li><a class="dropdown-item" href="#">Menu 1</a></li>
-                              <li><a class="dropdown-item" href="#">Menu 2</a></li>
+                              <li><a class="dropdown-item" href="#" data-aos="zoom-out-down">Menu 1</a></li>
+                              <li><a class="dropdown-item" href="#" data-aos="zoom-out-down">Menu 2</a></li>
                               <li class="dropdown-submenu">
                                   <a class="dropdown-item dropdown-toggle" href="#" id="nestedDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
                                   <ul class="dropdown-menu" aria-labelledby="nestedDropdown">
-                                      <li><a class="dropdown-item" href="#">Sub Menu 1</a></li>
-                                      <li><a class="dropdown-item" href="#">Sub Menu 2</a></li>
+                                      <li><a class="dropdown-item" href="#" data-aos="zoom-out-down">Sub Menu 1</a></li>
+                                      <li><a class="dropdown-item" href="#" data-aos="zoom-out-down">Sub Menu 2</a></li>
                                       <li class="dropdown-submenu">
                                           <a class="dropdown-item dropdown-toggle" href="#" id="nestedDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">Sub Menu 3</a>
                                           <ul class="dropdown-menu" aria-labelledby="nestedDropdown2">
-                                              <li><a class="dropdown-item" href="#">Sub-Sub Menu 1</a></li>
-                                              <li><a class="dropdown-item" href="#">Sub-Sub Menu 2</a></li>
+                                              <li><a class="dropdown-item" href="#" data-aos="zoom-out-down">Sub-Sub Menu 1</a></li>
+                                              <li><a class="dropdown-item" href="#" data-aos="zoom-out-down">Sub-Sub Menu 2</a></li>
                                           </ul>
                                       </li>
                                   </ul>
@@ -51,13 +53,13 @@
                           </ul>
                       </li>
                       <li class="nav-item">
-                          <a class="nav-link" href="#">Service</a>
+                          <a class="nav-link" href="#" data-aos="zoom-out-down">Service</a>
                       </li>
                       <li class="nav-item">
-                          <a class="nav-link" href="#">About us</a>
+                          <a class="nav-link" href="#" data-aos="zoom-out-down">About us</a>
                       </li>
                       <li class="nav-item">
-                          <a class="nav-link" href="#">Contact us</a>
+                          <a class="nav-link" href="#" data-aos="zoom-out-down">Contact us</a>
                       </li>
                   </ul>
               </div>
@@ -69,12 +71,9 @@
         <div class="container">
             <div class="row align-items-center">
             <div class="col-lg-5 text-start ms-auto">
-            <h1 class="heading mb-5"><span id="h1"  data-aos="fade-left"
-                data-aos-anchor="#example-anchor"
-                data-aos-offset="350"
-                data-aos-duration="700">We Fight </span> <span id="h1-1">For Your Right</span></h1>
-            <p id="para1">Another cool free template by the fine folks at <span id="anchor">Colorlib.</span></p>
-            <button id="header-button">free Consultation</button>
+            <h1 class="heading mb-5" data-aos="fade-up-left"><span id="h1" data-aos="fade-up-left">We Fight </span> <span id="h1-1">For Your Right</span></h1>
+            <p id="para1" data-aos="fade-up-left">Another cool free template by the fine folks at <span id="anchor">Colorlib.</span></p>
+            <button id="header-button" data-aos="fade-up-left">free Consultation</button>
             </div>
             </div>
             </div>
@@ -85,13 +84,13 @@
 
 <div id="main2">
     <div class="main2-1">
-        <h1>Our <span id="main2-1-span">Practice Areas</span> </h1>
-        <h4>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in.</h4>
-        <h4>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</h4>
-        <button id="main2-1-button">LEARN MORE</button>
+        <h1 data-aos="fade-up-right">Our <span id="main2-1-span">Practice Areas</span> </h1>
+        <h4 data-aos="fade-up-right">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in.</h4>
+        <h4 data-aos="fade-up-right">Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</h4>
+        <button id="main2-1-button" data-aos="fade-up-right">LEARN MORE</button>
     </div>
     <div class="main2-2">
-        <div class="box1">
+        <div class="box1" data-aos="fade-up-left">
             <div class="box1-img"><img src="images/suitcase-solid.svg" alt="img"></div>
             <div class="box-title">
             <div class="box1-heading">Banking And Finance Law</div>
@@ -104,7 +103,7 @@
 
 
 
-        <div class="box1">
+        <div class="box1" data-aos="fade-up-left">
             <div class="box1-img"><img src="images/suitcase-solid.svg" alt="img"></div>
             <div class="box-title">
             <div class="box1-heading">Banking And Finance Law</div>
@@ -116,7 +115,7 @@
 
 
 
-        <div class="box1">
+        <div class="box1" data-aos="fade-up-left">
             <div class="box1-img"><img src="images/suitcase-solid.svg" alt="img"></div>
             <div class="box-title">
             <div class="box1-heading">Banking And Finance Law</div>
@@ -128,7 +127,7 @@
 
 
 
-        <div class="box1">
+        <div class="box1" data-aos="fade-up-left">
             <div class="box1-img"><img src="images/suitcase-solid.svg" alt="img"></div>
             <div class="box-title">
             <div class="box1-heading">Banking And Finance Law</div>
@@ -138,41 +137,41 @@
         </div>
     </div>
 
-    <h4 id="more">More Practice Areas <img id="right" src="images/arrow-right-solid.svg" alt="img" style="width: 30px; height: 30px;"></h4>
+    <h4 id="more" data-aos="fade-up-right">More Practice Areas <img data-aos="fade-up-right" id="right" src="images/arrow-right-solid.svg" alt="img" style="width: 30px; height: 30px;"></h4>
     </div>
 </div>
 
 
 <div id="main3">
     <div id="main3-1">
-    <h1><span id="main3-1-span1"> 50 Years</span> Of Experience In Various Cases</h1>
+    <h1  data-aos="fade-down"><span id="main3-1-span1"> 50 Years</span> Of Experience In Various Cases</h1>
 </div>
 <div id="main3-2">
     <div id="main3-2-card1" class="col-md-6 col-lg-6">
-        <h1>90 <img src="images/plus-solid.svg" alt="img" style="width: 50px; height: 50px;"></h1>
-        <h3>Awards</h3>
-        <h5>Separated they live in Bookmarksgrove right at the coast of the Semantics.</h5>
+        <h1  data-aos="fade-down">90 <img  data-aos="fade-down" src="images/plus-solid.svg" alt="img" style="width: 50px; height: 50px;"></h1>
+        <h3  data-aos="fade-down">Awards</h3>
+        <h5 data-aos="fade-down">Separated they live in Bookmarksgrove right at the coast of the Semantics.</h5>
     </div>
 
 
 
     <div id="main3-2-card2" class="col-md-6 col-lg-6">
-        <h1>90 <img src="images/plus-solid.svg" alt="img" style="width: 50px; height: 50px;"></h1>
-        <h3>Awards</h3>
-        <h5>Separated they live in Bookmarksgrove right at the coast of the Semantics.</h5>
+        <h1  data-aos="fade-down">90 <img src="images/plus-solid.svg"  data-aos="fade-down" alt="img" style="width: 50px; height: 50px;"></h1>
+        <h3  data-aos="fade-down">Awards</h3>
+        <h5 data-aos="fade-down">Separated they live in Bookmarksgrove right at the coast of the Semantics.</h5>
     </div>
 
 
     <div id="main3-2-card2" class="col-md-6 col-lg-6">
-        <h1>90 <img src="images/plus-solid.svg" alt="img" style="width: 50px; height: 50px;"></h1>
-        <h3>Awards</h3>
-        <h5>Separated they live in Bookmarksgrove right at the coast of the Semantics.</h5>
+        <h1 data-aos="fade-down">90 <img src="images/plus-solid.svg" alt="img" style="width: 50px; height: 50px;"></h1>
+        <h3 data-aos="fade-down">Awards</h3>
+        <h5 data-aos="fade-down">Separated they live in Bookmarksgrove right at the coast of the Semantics.</h5>
     </div>
 
     <div id="main3-2-card2" class="col-md-6 col-lg-6">
-        <h1>90 <img src="images/plus-solid.svg" alt="img" style="width: 50px; height: 50px;"></h1>
-        <h3>Awards</h3>
-        <h5>Separated they live in Bookmarksgrove right at the coast of the Semantics.</h5>
+        <h1  data-aos="fade-down">90 <img src="images/plus-solid.svg" alt="img" style="width: 50px; height: 50px;"></h1>
+        <h3 data-aos="fade-down">Awards</h3>
+        <h5 data-aos="fade-down">Separated they live in Bookmarksgrove right at the coast of the Semantics.</h5>
     </div>
 </div>
 </div>
@@ -227,7 +226,7 @@
 <!-- </div> -->
 <div class="main4">
     <h1><span>Happy</span> Clients</h1>
-<div class="slider-main">
+<div class="slider-main" data-aos="flip-left">
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -271,15 +270,15 @@
 <!-- the main5 start here the main5 start here the main5 start here the main5 start here the main5 start here the main5 start here the main5 start here the main5 start here the main5 start here the main5 start here the main5 start here the main5 start here  -->
 
 <div class="main5">
-    <h1>More <span id="expert">Expertiese</span></h1>
+    <h1  data-aos="flip-right">More <span id="expert">Expertiese</span></h1>
     <div class="ends">
     <div class="end-cards"><br>
        <div class="card-image">
-        <img src="images/suitcase-removebg-preview.png" alt="img"></div> 
+        <img  data-aos="flip-right" src="images/suitcase-removebg-preview.png" alt="img"></div> 
    <div class="card-text">
-    <h3>Labour and Employment</h3>
-    <p>Separated they live in. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-    <h6>Learn More <img src="images/arrow.png" alt="img" style="width: 20px; height: 20px;"></h6>
+    <h3  data-aos="flip-right">Labour and Employment</h3>
+    <p data-aos="flip-right">Separated they live in. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+    <h6 data-aos="flip-right">Learn More <img src="images/arrow.png" alt="img" style="width: 20px; height: 20px;"></h6>
 </div>
     </div>
 
@@ -287,11 +286,11 @@
 
     <div class="end-cards"><br>
         <div class="card-image">
-         <img src="images/suitcase-removebg-preview.png" alt="img"></div> 
+         <img src="images/suitcase-removebg-preview.png" data-aos="flip-right" alt="img"></div> 
     <div class="card-text">
-     <h3>Labour and Employment</h3>
-     <p>Separated they live in. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-        <h6>Learn More <img src="images/arrow.png" alt="img" style="width: 20px; height: 20px;"></h6>
+     <h3 data-aos="flip-right">Labour and Employment</h3>
+     <p data-aos="flip-right">Separated they live in. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+        <h6 data-aos="flip-right">Learn More <img src="images/arrow.png" alt="img" style="width: 20px; height: 20px;"></h6>
     </div>
      </div>
 
@@ -302,11 +301,11 @@
 
      <div class="end-cards"><br>
         <div class="card-image">
-         <img src="images/suitcase-removebg-preview.png" alt="img"></div> 
+         <img src="images/suitcase-removebg-preview.png" data-aos="flip-right" alt="img"></div> 
     <div class="card-text">
-     <h3>Labour and Employment</h3>
-     <p>Separated they live in. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-     <h6>Learn More <img src="images/arrow.png" alt="img" style="width: 20px; height: 20px;"></h6>
+     <h3 data-aos="flip-right">Labour and Employment</h3>
+     <p data-aos="flip-right">Separated they live in. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+     <h6 data-aos="flip-right">Learn More <img src="images/arrow.png" alt="img" style="width: 20px; height: 20px;"></h6>
     </div>
      </div>
 
@@ -316,11 +315,11 @@
 
      <div class="end-cards"><br>
         <div class="card-image">
-         <img src="images/suitcase-removebg-preview.png" alt="img"></div> 
+         <img src="images/suitcase-removebg-preview.png" data-aos="flip-right" alt="img"></div> 
     <div class="card-text">
-     <h3>Labour and Employment</h3>
-     <p>Separated they live in. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-     <h6>Learn More <img src="images/arrow.png" alt="img" style="width: 20px; height: 20px;"></h6>
+     <h3 data-aos="flip-right">Labour and Employment</h3>
+     <p data-aos="flip-right">Separated they live in. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+     <h6 data-aos="flip-right">Learn More <img src="images/arrow.png" alt="img" style="width: 20px; height: 20px;"></h6>
     </div>
      </div>
 
@@ -332,15 +331,15 @@
 <div class="main6">
 <div class="bg">
     <center>
-    <h4>Let's get started. Call us Now for a Free Consultation</h4>
-    <button>CALL US NOW</button>
+    <h4 data-aos="fade-down-left">Let's get started. Call us Now for a Free Consultation</h4>
+    <button data-aos="fade-down-left">CALL US NOW</button>
 </center>
 </div>
 
 </div>
 
 
-<div class="site-footer">
+<div class="site-footer" data-aos="fade-up">
     <div class="container">
     <div class="row">
     <div class="col-lg-3">
@@ -408,7 +407,7 @@
     </div> 
     </div> 
 
-
+<div class="container-fluid" id="end-footer">Copyright ©2024 All rights reserved | Made By Muhammad Ahmed</div>
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
